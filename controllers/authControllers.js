@@ -40,6 +40,7 @@ router.post("/register", async (req, res) => {
 });
 
 // Connexion
+// Authentification
 router.post("/login", async (req, res) => {
   const { email, password } = req.body;
   try {
